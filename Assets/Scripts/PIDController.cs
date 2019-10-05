@@ -11,7 +11,7 @@ public class PIDController {
 	public float Kp = 0.2f;
 	
 	[Tooltip("Integral constant (counters cumulated error)")]
-	public float Ki = 0.05f;
+	public float Ki = 0.0005f;
 	
 	[Tooltip("Derivative constant (fights oscillation)")]
 	public float Kd = 1f;
