@@ -14,7 +14,7 @@ public class Waypoint : MonoBehaviour
         GetComponent<CircleCollider2D>().radius = radius;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         
         if (other.tag =="Enemy"){
