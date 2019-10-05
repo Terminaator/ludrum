@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2000481632596664736}
   m_Layer: 0
   m_Name: car1AI2
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
