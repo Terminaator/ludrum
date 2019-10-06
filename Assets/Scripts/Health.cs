@@ -26,7 +26,7 @@ public class Health : MonoBehaviour
         {
             bodys.GetComponent<Bodys>().spawn();
         }
-        text.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
+        text.GetComponent<UnityEngine.UI.Text>().text =  "LIVES: "+ lives + "";
     }
     private void Update() {
         if (wait)
@@ -49,7 +49,7 @@ public class Health : MonoBehaviour
             }
             lives--;
             wait = true;
-            text.GetComponent<UnityEngine.UI.Text>().text = lives + "";
+            text.GetComponent<UnityEngine.UI.Text>().text = "LIVES: "+ lives + "";
             Blink();
             AudioPlayer.instance.screamAudioGroup.Play();
         }
@@ -63,7 +63,10 @@ public class Health : MonoBehaviour
             {
                 Debug.Log("ginne");
                 checks = new int[]{1,0,0,0};
-                lives = 3;
+                if(lives < 3){
+                    lives+=1;
+                }
+                
                 GameObject.FindGameObjectWithTag("Player").GetComponent<Upgrades>().Spawn();
                 text.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
             }
