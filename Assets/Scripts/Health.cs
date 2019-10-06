@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
-    public GameObject text;
+    public GameObject liveText;
+    public GameObject scoreText;
     public GameObject bodysPrefab;
 
     private int lives = 3   ;
@@ -14,6 +15,8 @@ public class Health : MonoBehaviour
     private float duration = 2f;
 
     private float timer = 0f;
+
+    private int score = 0;
 
     private bool wait = false;
     private void Start() {
@@ -26,7 +29,8 @@ public class Health : MonoBehaviour
         {
             bodys.GetComponent<Bodys>().spawn();
         }
-        text.GetComponent<UnityEngine.UI.Text>().text =  "LIVES: "+ lives + "";
+        liveText.GetComponent<UnityEngine.UI.Text>().text =  "LIVES: "+ lives + "";
+        scoreText.GetComponent<UnityEngine.UI.Text>().text =  "SCORE: "+ score + "";
     }
     private void Update() {
         if (wait)
@@ -49,7 +53,7 @@ public class Health : MonoBehaviour
             }
             lives--;
             wait = true;
-            text.GetComponent<UnityEngine.UI.Text>().text = "LIVES: "+ lives + "";
+            liveText.GetComponent<UnityEngine.UI.Text>().text = "LIVES: "+ lives + "";
             Blink();
             AudioPlayer.instance.screamAudioGroup.Play();
         }
@@ -68,7 +72,10 @@ public class Health : MonoBehaviour
                 }
                 
                 GameObject.FindGameObjectWithTag("Player").GetComponent<Upgrades>().Spawn();
-                text.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
+                liveText.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
+
+                score++;
+                scoreText.GetComponent<UnityEngine.UI.Text>().text =  "SCORE: "+ score + "";
             }
             else
             {

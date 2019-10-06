@@ -363,7 +363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 561e0bf321bde56469d877d5dba63e90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
+  liveText: {fileID: 0}
+  scoreText: {fileID: 0}
   bodysPrefab: {fileID: 7668210739650087096, guid: 30b5b52c2d6d2154e9460edc40eef940,
     type: 3}
 --- !u!114 &-4357070116139184123
