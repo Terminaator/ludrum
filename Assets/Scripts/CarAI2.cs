@@ -50,7 +50,7 @@ public class CarAI2 : MonoBehaviour
         
         // one side
         RaycastHit2D hit1 = Physics2D.Raycast(transform.position, eyeDir1, Mathf.Infinity, layerMask);
-        Debug.DrawLine(transform.position, hit1.point, Color.red, 10);
+        //Debug.DrawLine(transform.position, hit1.point, Color.red, 10);
 
         if (hit1.collider != null) {
             rotationSpeed1 = Mathf.Clamp01(altitudePID1.Update(hit1.distance*5));
@@ -58,7 +58,7 @@ public class CarAI2 : MonoBehaviour
 
         // other side
         RaycastHit2D hit2 = Physics2D.Raycast(transform.position, eyeDir2, Mathf.Infinity, layerMask);
-        Debug.DrawLine(transform.position, hit2.point, Color.blue, 10);
+        //Debug.DrawLine(transform.position, hit2.point, Color.blue, 10);
 
         if (hit2.collider != null) {
             rotationSpeed2 = Mathf.Clamp01(altitudePID2.Update(hit2.distance*5));

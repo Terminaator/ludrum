@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 7d44e4719d8be354783037336bc282a1
+guid: 4cc924400ee47284a95ef98095dc25c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8125658361771443759
-    second: Man_Shoes_0
+      213: 7451172344468163224
+    second: Man_Feet_0
   - first:
-      213: -2962069049145841836
-    second: Man_Shoes_1
+      213: -1717760452538525115
+    second: Man_Feet_1
   - first:
-      213: -3368711790052447819
-    second: Man_Shoes_2
+      213: 8854997279512864990
+    second: Man_Feet_2
   - first:
-      213: -483233508760561157
-    second: Man_Shoes_3
+      213: 8432649832783697285
+    second: Man_Feet_3
   - first:
-      213: 3526089732517411936
-    second: Man_Shoes_4
+      213: 3570575459690038281
+    second: Man_Feet_4
   - first:
-      213: 3066346093362495820
-    second: Man_Shoes_5
+      213: 2408367036819478925
+    second: Man_Feet_5
   - first:
-      213: -8915906737779056463
-    second: Man_Shoes_6
+      213: -1084069015968870397
+    second: Man_Feet_6
   - first:
-      213: -3266210999547339473
-    second: Man_Shoes_7
+      213: 1180816052357848190
+    second: Man_Feet_7
   - first:
-      213: 8360508003583525732
-    second: Man_Shoes_8
+      213: -6058046040425673473
+    second: Man_Feet_8
   - first:
-      213: 3801579971358037615
-    second: Man_Shoes_9
+      213: -2474740645370300366
+    second: Man_Feet_9
   - first:
-      213: 8094168262214214158
-    second: Man_Shoes_10
+      213: 9009463828132087300
+    second: Man_Feet_10
   - first:
-      213: -5728401183251242748
-    second: Man_Shoes_11
+      213: 1255019076942382791
+    second: Man_Feet_11
   - first:
-      213: 4649305964575662838
-    second: Man_Shoes_12
+      213: 7740038729026587911
+    second: Man_Feet_12
   - first:
-      213: 37627242377076252
-    second: Man_Shoes_13
+      213: 4453198048070471603
+    second: Man_Feet_13
   - first:
-      213: -849126504736785890
-    second: Man_Shoes_14
+      213: 8817493439971875191
+    second: Man_Feet_14
   - first:
-      213: -1919422752477952899
-    second: Man_Shoes_15
+      213: -8775884233121205508
+    second: Man_Feet_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Man_Shoes_0
+      name: Man_Feet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -148,14 +148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a8ad3c838a7c82449c5893e06051acf
-      internalID: 8125658361771443759
+      spriteID: 52112637c2c5eb54f9aa7657eae9b34e
+      internalID: 7451172344468163224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_1
+      name: Man_Feet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e246a8fbe89e43d45a6a4eeb8b5cce68
-      internalID: -2962069049145841836
+      spriteID: 56fe1dcf3b9425545878c86c21a285e8
+      internalID: -1717760452538525115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_2
+      name: Man_Feet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -190,14 +190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db6ab9925434ac94a9df5cfc51c3c91b
-      internalID: -3368711790052447819
+      spriteID: 45cd57e5f2693ab43801ab8595bf1049
+      internalID: 8854997279512864990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_3
+      name: Man_Feet_3
       rect:
         serializedVersion: 2
         x: 96
@@ -211,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7333363a706cd3d488cdbb82597e86ff
-      internalID: -483233508760561157
+      spriteID: 1c18e1f06545c0947a849baa0eac879b
+      internalID: 8432649832783697285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_4
+      name: Man_Feet_4
       rect:
         serializedVersion: 2
         x: 128
@@ -232,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64dc0bca448b8224dad17b95530eea3a
-      internalID: 3526089732517411936
+      spriteID: 9be4ad2e6e6d27142a3bfe2425024be5
+      internalID: 3570575459690038281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_5
+      name: Man_Feet_5
       rect:
         serializedVersion: 2
         x: 160
@@ -253,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bea7f5ecb300e194ab09676484e901ec
-      internalID: 3066346093362495820
+      spriteID: 774da64d4cf0b3e4499ace08e22c6448
+      internalID: 2408367036819478925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_6
+      name: Man_Feet_6
       rect:
         serializedVersion: 2
         x: 192
@@ -274,14 +274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e19862098267304fafd7279e6768f18
-      internalID: -8915906737779056463
+      spriteID: b690a56690c967b48a5956b42c5f74ee
+      internalID: -1084069015968870397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_7
+      name: Man_Feet_7
       rect:
         serializedVersion: 2
         x: 224
@@ -295,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ecd589473cba064590973aee4c05161
-      internalID: -3266210999547339473
+      spriteID: a45e4556e29124940823b1a32bc60f2c
+      internalID: 1180816052357848190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_8
+      name: Man_Feet_8
       rect:
         serializedVersion: 2
         x: 256
@@ -316,14 +316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2decb0108d52ff499e8d07d8599469a
-      internalID: 8360508003583525732
+      spriteID: d32949b01f88dd4488b0a600c07eddff
+      internalID: -6058046040425673473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_9
+      name: Man_Feet_9
       rect:
         serializedVersion: 2
         x: 288
@@ -337,14 +337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2dad0dbe8ae25a498171a36556e7269
-      internalID: 3801579971358037615
+      spriteID: f2dd4c0abf0a2414cbb811122a3012cb
+      internalID: -2474740645370300366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_10
+      name: Man_Feet_10
       rect:
         serializedVersion: 2
         x: 320
@@ -358,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e3ed2a33e4f1fb4ca06a87f5489dd5d
-      internalID: 8094168262214214158
+      spriteID: f9c0e7ba763848940868829e73730b84
+      internalID: 9009463828132087300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_11
+      name: Man_Feet_11
       rect:
         serializedVersion: 2
         x: 352
@@ -379,14 +379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edbb59a04c788a14eb6e52f224fb9a8a
-      internalID: -5728401183251242748
+      spriteID: 5e41e53258277c34c889ca0c0b4c4605
+      internalID: 1255019076942382791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_12
+      name: Man_Feet_12
       rect:
         serializedVersion: 2
         x: 384
@@ -400,14 +400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e23e4e2fdfe647949922b4576443dccc
-      internalID: 4649305964575662838
+      spriteID: 77920e65e93dc1d4d9d68090c3f7e824
+      internalID: 7740038729026587911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_13
+      name: Man_Feet_13
       rect:
         serializedVersion: 2
         x: 416
@@ -421,14 +421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 192249927ce315240b445b5f2bd42872
-      internalID: 37627242377076252
+      spriteID: 8759800c9716b0a4287d10ed444c63e2
+      internalID: 4453198048070471603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_14
+      name: Man_Feet_14
       rect:
         serializedVersion: 2
         x: 448
@@ -442,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7b153a242f2cd4694d4c437454a217
-      internalID: -849126504736785890
+      spriteID: 0d53709478e3853448e07840d435b560
+      internalID: 8817493439971875191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Man_Shoes_15
+      name: Man_Feet_15
       rect:
         serializedVersion: 2
         x: 480
@@ -463,8 +463,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a41540aa3f001c749aa9290ef46ba0e7
-      internalID: -1919422752477952899
+      spriteID: a1bae7bcf1bcdc840b1fcd42102cc867
+      internalID: -8775884233121205508
       vertices: []
       indices: 
       edges: []
@@ -472,7 +472,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: aeb6535330ddd5f489d87bd80de11c79
+    spriteID: b1890eae78382374d8adb8c11fc7fa30
     internalID: 0
     vertices: []
     indices: 
