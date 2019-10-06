@@ -45,7 +45,10 @@ public class PlayerRun2 : MonoBehaviour
             Drive();
         }
         
-        
+        if(upgrades.currentShoeTier == 0){
+            animatorhands.SetBool("Running", moving);
+            animatorLegs.SetBool("Running", moving);
+        }
         if (animatorshoes.gameObject.activeInHierarchy) {
             if (upgrades.currentShoeTier <= 2){
                 animatorhands.SetBool("Running", moving);
@@ -86,14 +89,17 @@ public class PlayerRun2 : MonoBehaviour
 
     private void Drive() {
 
+        moving = true;
         if (Input.GetKey(KeyCode.W)) {
             currentSpeed += transform.up*Time.deltaTime*acceleration;
             currentSpeed = Vector3.ClampMagnitude(currentSpeed, maxSpeed);
-
+            
         } else if (Input.GetKey(KeyCode.S)) {
             currentSpeed -= transform.up*Time.deltaTime*acceleration;
             currentSpeed = Vector3.ClampMagnitude(currentSpeed, maxSpeed/2);
             
+        } else {
+            moving = false;
         }
         currentSpeed = currentSpeed*drag;
         transform.position = transform.position + currentSpeed * Time.deltaTime;

@@ -324,7 +324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   rotationSpeed: 100
-  acceleration: 5
+  acceleration: 3
   maxSpeed: 100
   drag: 0.95
   animatorLegs: {fileID: 481174627509660467}

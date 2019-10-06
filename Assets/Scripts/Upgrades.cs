@@ -20,23 +20,22 @@ public class Upgrades : MonoBehaviour
             update = true;
             shoes.gameObject.SetActive(true);
             shoes.color = Color.yellow;
-            GetComponent<PlayerRun2>().speed += 1;
+            GetComponent<PlayerRun2>().speed += 0.5f;
         } else if (currentShoeTier == 2) {
             update = true;
             shoes.color = Color.red;
-            GetComponent<PlayerRun2>().speed += 1;
+            GetComponent<PlayerRun2>().speed += 0.5f;
         } else if (currentShoeTier == 3) {
             update = true;
             shoes.color = Color.white;
             GetComponent<PlayerRun2>().animatorshoes.SetBool("Running", false);
             GetComponent<PlayerRun2>().animatorLegs.SetBool("Running", false);
-            GetComponent<PlayerRun2>().speed += 1;
+            GetComponent<PlayerRun2>().speed += 0.5f;
         } else if (currentShoeTier == 4) {
             shoes.gameObject.SetActive(false);
             GetComponent<PlayerRun2>().bike.SetActive(true);
             GetComponent<PlayerRun2>().animatorshoes.SetBool("Roll", false);
             GetComponent<PlayerRun2>().animatorhands.SetBool("Running", false);
-            GetComponent<PlayerRun2>().speed += 1;
         } else if (currentShoeTier == 5) {
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<CircleCollider2D>().enabled = false;
