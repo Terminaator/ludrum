@@ -15,8 +15,6 @@ public class BGMusic : MonoBehaviour {
 
     public static BGMusic instance;
 
-    private int playingClip = -1;
-
     private AudioSource source;
 
     //Always keep this gameObject there
