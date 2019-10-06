@@ -5,25 +5,53 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     private Transform player;
+    public SpriteRenderer map;
 
     public Vector3 offset;
+
+    private float minX;
+    private float maxX;
+    private float minY;
+    private float maxY;
+
+    private float lastWidth;
+    private float lastHeight;
+
     void Start()
     {
+        UpdateBounds();
+
+    }
+
+    private void UpdateBounds() {
+        // camera bounding https://answers.unity.com/questions/501893/calculating-2d-camera-bounds.html (Modified)
+        float mapX = map.bounds.size.x-0.3f;
+        float mapY = map.bounds.size.y;
+
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        float vertExtent = GetComponent<Camera>().orthographicSize;
+        float horzExtent = vertExtent * Screen.width / Screen.height;
+
+        // Calculations assume map is position at the origin
+        minX = horzExtent - mapX / 2.0f;
+        maxX = mapX / 2.0f - horzExtent;
+        minY = vertExtent - mapY / 2.0f;
+        maxY = mapY / 2.0f - vertExtent;
+
+        lastWidth = Screen.width;
+        lastHeight = Screen.height;
     }
 
     void LateUpdate()
-    {   
-        Vector3 newPos = player.position + offset;
-        if (newPos.x > 3.82) 
-            newPos.x = 3.82f;
-        else if (newPos.x < -3.5)
-            newPos.x = -3.5f;
+    {
+        if (lastHeight != Screen.height || lastWidth != Screen.width) {
+            UpdateBounds();
+        }
 
-        if (newPos.y > 7.78) 
-            newPos.y = 7.78f;
-        else if (newPos.y < -7.62)
-            newPos.y = -7.62f;
-        transform.position = newPos;
+        Vector3 v3 = player.transform.position + offset;
+        v3.x = Mathf.Clamp(v3.x, minX, maxX);
+        v3.y = Mathf.Clamp(v3.y, minY, maxY);
+        transform.position = v3;
+        
     }
 }
