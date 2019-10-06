@@ -21,11 +21,11 @@ public class MainMenu : MonoBehaviour
     void Exit()
     {
         Debug.Log("pressed exit");
-        if (EditorApplication.isPlaying)
+        /*if (EditorApplication.isPlaying)
         {
             EditorApplication.isPlaying = false;
-        }
-        //Application.Quit();
+        }*/
+        Application.Quit();
     }
 
     void Game()
