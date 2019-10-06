@@ -15,7 +15,6 @@ public class Upgrades : MonoBehaviour
 
     public void UpgradesShoes() {
         currentShoeTier += 1;
-        Debug.Log("kek");
         if (currentShoeTier == 1) {
             shoes.gameObject.SetActive(true);
             shoes.color = Color.yellow;
@@ -24,6 +23,21 @@ public class Upgrades : MonoBehaviour
         } else if (currentShoeTier == 3) {
             shoes.color = Color.white;
             GetComponent<PlayerRun2>().animatorshoes.SetBool("Running", false);
+            GetComponent<PlayerRun2>().animatorLegs.SetBool("Running", false);
+        } else if (currentShoeTier == 4) {
+            shoes.gameObject.SetActive(false);
+            GetComponent<PlayerRun2>().bike.SetActive(true);
+            GetComponent<PlayerRun2>().animatorshoes.SetBool("Roll", false);
+            GetComponent<PlayerRun2>().animatorhands.SetBool("Running", false);
+        } else if (currentShoeTier == 5) {
+            GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<CircleCollider2D>().enabled = false;
+            GetComponent<PlayerRun2>().bike.SetActive(false);
+            GetComponent<PlayerRun2>().animatorLegs.gameObject.SetActive(false);
+            GetComponent<PlayerRun2>().animatorhands.gameObject.SetActive(false);
+
+            GetComponent<BoxCollider2D>().enabled = true;
+            GetComponent<PlayerRun2>().buggy.gameObject.SetActive(true);
         }
     }
 

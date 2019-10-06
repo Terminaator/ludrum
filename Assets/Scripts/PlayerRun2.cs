@@ -15,18 +15,23 @@ public class PlayerRun2 : MonoBehaviour
 
     public Animator animatorshoes;
 
+    public Animator animatorHead;
+
+    public GameObject bike;
+
+    public GameObject buggy;
     private Upgrades upgrades;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        animatorHead = GetComponent<Animator>();
         upgrades = GetComponent<Upgrades>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        isRunning = false;
         Vector3 moveVec = new Vector3();
         if (Input.GetKey(KeyCode.W)) {
             moveVec.y = 1;
@@ -44,14 +49,22 @@ public class PlayerRun2 : MonoBehaviour
             transform.rotation = Quaternion.Euler(new Vector3(0,0,Mathf.Atan2(moveVec.y, moveVec.x)*Mathf.Rad2Deg - 90));
         }
 
-        animatorLegs.SetBool("Running", mag != 0);
-        animatorhands.SetBool("Running", mag != 0);
+        
         if (animatorshoes.gameObject.activeInHierarchy) {
-            if (upgrades.currentShoeTier <= 2)
+            if (upgrades.currentShoeTier <= 2){
+                animatorhands.SetBool("Running", mag != 0);
+                animatorLegs.SetBool("Running", mag != 0);
                 animatorshoes.SetBool("Running", mag != 0);
-            else if (upgrades.currentShoeTier == 3) {
+            }else if (upgrades.currentShoeTier == 3) {
                 animatorshoes.SetBool("Roll",  mag != 0);
-            } 
-        }
+            }
+        } else if (bike.gameObject.activeInHierarchy) {
+            if (upgrades.currentShoeTier == 4) {
+                animatorLegs.SetBool("Bike",  mag != 0);
+                animatorHead.SetBool("Bike",  mag != 0);
+                animatorhands.SetBool("Bike",  mag != 0);
+            }
+        } 
     }
+    
 }
