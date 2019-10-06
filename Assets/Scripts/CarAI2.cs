@@ -54,7 +54,7 @@ public class CarAI2 : MonoBehaviour
         Debug.DrawLine(transform.position, hit1.point, Color.red, 10);
 
         if (hit1.collider != null) {
-            rotationSpeed1 = Mathf.Clamp01(altitudePID1.Update(Mathf.Pow(hit1.distance,1.5f)));
+            rotationSpeed1 = Mathf.Clamp01(altitudePID1.Update(hit1.distance*5));
         }
 
         // other side
@@ -62,7 +62,7 @@ public class CarAI2 : MonoBehaviour
         Debug.DrawLine(transform.position, hit2.point, Color.blue, 10);
 
         if (hit2.collider != null) {
-            rotationSpeed2 = Mathf.Clamp01(altitudePID2.Update(Mathf.Pow(hit2.distance,1.5f)));
+            rotationSpeed2 = Mathf.Clamp01(altitudePID2.Update(hit2.distance*5));
         }
         Debug.Log(rotationSpeed1 - rotationSpeed2);
         if (rotationSpeed1 > rotationSpeed2) {
@@ -78,16 +78,20 @@ public class CarAI2 : MonoBehaviour
         RaycastHit2D hit3 = Physics2D.Raycast(transform.position, eyeDir3, Mathf.Infinity, layerMask);
         //Debug.DrawLine(transform.position + eyeDir3, hit3.point, Color.blue, 10);
         if (hit3.collider != null) {
-            //Debug.Log(transform.up * hit3.distance*rotationSpeedMult* Time.deltaTime);
-
-            rb.velocity = transform.up * Mathf.Pow(hit3.distance, 1/3) *speedMult;
+            //Debug.Log(transform.up * hit3.distance*rotationSpeedMult* Time.deltaTi    me);
+            float speed = rb.velocity.magnitude +  speedMult * Time.deltaTime;
+            float maxSpeed = Mathf.Pow(hit3.distance, 1/3)*3;
+            if (speed > maxSpeed){
+                speed = maxSpeed;
+            }
+            rb.velocity = transform.up*speed;
 
             Debug.Log(rb.velocity.magnitude);
             
             //transform.position = transform.position + speed;
         }
 
-        if (hit3.distance < 1f && hit2.distance < 1f && hit1.distance < 1f) {
+        if (hit3.distance < 1f && hit2.distance < 1.3f && hit1.distance < 1.3f) {
             isCrashed = true;
             crashTime = 0.7f;
             Debug.Log("crashed");
