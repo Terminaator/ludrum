@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class Health : MonoBehaviour
 {
     public GameObject text;
+    public AudioSource scream;
+
     private int lives = 3;
     private int[] checks = new int[]{0,0,0,0};
 
@@ -23,6 +25,7 @@ public class Health : MonoBehaviour
             timer += Time.deltaTime;
             if (timer >= duration) {
                 wait = false;
+                scream.Pause();
                 timer = 0f;
             }
         }
@@ -38,6 +41,7 @@ public class Health : MonoBehaviour
             wait = true;
             text.GetComponent<UnityEngine.UI.Text>().text = lives + "";
             Blink();
+            scream.Play(0);
         }
         Debug.Log("lives: " + lives);
     }
