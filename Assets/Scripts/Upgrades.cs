@@ -15,16 +15,19 @@ public class Upgrades : MonoBehaviour
 
     public void UpgradesShoes() {
         currentShoeTier += 1;
+        Debug.Log("kek");
         if (currentShoeTier == 1) {
             shoes.gameObject.SetActive(true);
             shoes.color = Color.yellow;
         } else if (currentShoeTier == 2) {
             shoes.color = Color.red;
+        } else if (currentShoeTier == 3) {
+            shoes.color = Color.white;
+            GetComponent<PlayerRun2>().animatorshoes.SetBool("Running", false);
         }
     }
 
     public void Spawn(){
-        currentShoeTier += 1;
         float[] p = points[Random.Range(0,5)];
         if (currentShoeTier == 1)
         {

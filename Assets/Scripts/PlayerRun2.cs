@@ -15,9 +15,12 @@ public class PlayerRun2 : MonoBehaviour
 
     public Animator animatorshoes;
 
+    private Upgrades upgrades;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        upgrades = GetComponent<Upgrades>();
     }
 
     // Update is called once per frame
@@ -43,7 +46,12 @@ public class PlayerRun2 : MonoBehaviour
 
         animatorLegs.SetBool("Running", mag != 0);
         animatorhands.SetBool("Running", mag != 0);
-        if (animatorshoes.gameObject.activeInHierarchy)
-            animatorshoes.SetBool("Running", mag != 0);
+        if (animatorshoes.gameObject.activeInHierarchy) {
+            if (upgrades.currentShoeTier <= 2)
+                animatorshoes.SetBool("Running", mag != 0);
+            else if (upgrades.currentShoeTier == 3) {
+                animatorshoes.SetBool("Roll",  mag != 0);
+            } 
+        }
     }
 }
