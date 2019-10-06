@@ -64,7 +64,7 @@ public class CarAI2 : MonoBehaviour
         if (hit2.collider != null) {
             rotationSpeed2 = Mathf.Clamp01(altitudePID2.Update(hit2.distance*5));
         }
-        Debug.Log(rotationSpeed1 - rotationSpeed2);
+
         if (rotationSpeed1 > rotationSpeed2) {
             transform.RotateAround(sr.bounds.center, Vector3.forward, rotationSpeedMult*rotationSpeed1*Time.deltaTime);
         } else {
@@ -86,7 +86,6 @@ public class CarAI2 : MonoBehaviour
             }
             rb.velocity = transform.up*speed;
 
-            Debug.Log(rb.velocity.magnitude);
             
             //transform.position = transform.position + speed;
         }
@@ -94,7 +93,6 @@ public class CarAI2 : MonoBehaviour
         if (hit3.distance < 1f && hit2.distance < 1.3f && hit1.distance < 1.3f) {
             isCrashed = true;
             crashTime = 0.7f;
-            Debug.Log("crashed");
         }
     }
 
