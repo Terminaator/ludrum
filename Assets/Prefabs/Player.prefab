@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 1111434985}
   - component: {fileID: 3171673985161585354}
   - component: {fileID: 4618981533807927828}
+  - component: {fileID: 3532448701497915211}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -322,7 +323,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  rotationSpeed: 0
+  rotationSpeed: 100
+  acceleration: 5
+  maxSpeed: 100
+  drag: 0.95
   animatorLegs: {fileID: 481174627509660467}
   animatorhands: {fileID: 6425188605850366683}
   animatorshoes: {fileID: 4194768296055700305}
@@ -352,7 +356,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2199402254300714233}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -371,6 +375,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 1}
   m_EdgeRadius: 0
+--- !u!81 &3532448701497915211
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2199402254300714233}
+  m_Enabled: 1
 --- !u!1 &5066185994739664876
 GameObject:
   m_ObjectHideFlags: 0
