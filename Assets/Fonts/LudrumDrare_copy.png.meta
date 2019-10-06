@@ -1,7 +1,175 @@
 fileFormatVersion: 2
 guid: 56ee80c7aaf63884d85d3d92340f5360
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5677416366163668441
+    second: LudrumDrare_copy_0
+  - first:
+      213: -2556192837981098154
+    second: LudrumDrare_copy_1
+  - first:
+      213: -680643560170217344
+    second: LudrumDrare_copy_2
+  - first:
+      213: 8488537820725804300
+    second: LudrumDrare_copy_3
+  - first:
+      213: -2192682853103928662
+    second: LudrumDrare_copy_4
+  - first:
+      213: -6940164500576170725
+    second: LudrumDrare_copy_5
+  - first:
+      213: 5762050971085590543
+    second: LudrumDrare_copy_6
+  - first:
+      213: -1222577645579253988
+    second: LudrumDrare_copy_7
+  - first:
+      213: 2251776656398493205
+    second: LudrumDrare_copy_8
+  - first:
+      213: -1310463642766275821
+    second: LudrumDrare_copy_9
+  - first:
+      213: -3083334724825174419
+    second: LudrumDrare_copy_10
+  - first:
+      213: -9208094009571309124
+    second: LudrumDrare_copy_11
+  - first:
+      213: 6484660088944298346
+    second: LudrumDrare_copy_12
+  - first:
+      213: -6232593824265428544
+    second: LudrumDrare_copy_13
+  - first:
+      213: 7441513029968900728
+    second: LudrumDrare_copy_14
+  - first:
+      213: 8733337442956629505
+    second: LudrumDrare_copy_15
+  - first:
+      213: 3502649237495166856
+    second: LudrumDrare_copy_16
+  - first:
+      213: 3989213601239706655
+    second: LudrumDrare_copy_17
+  - first:
+      213: -2189002003464494200
+    second: LudrumDrare_copy_18
+  - first:
+      213: -818005494062507276
+    second: LudrumDrare_copy_19
+  - first:
+      213: 3926760638325398498
+    second: LudrumDrare_copy_20
+  - first:
+      213: 5165555432485561712
+    second: LudrumDrare_copy_21
+  - first:
+      213: -7400388189145411837
+    second: LudrumDrare_copy_22
+  - first:
+      213: -7607455401072228781
+    second: LudrumDrare_copy_23
+  - first:
+      213: -6205972979770760454
+    second: LudrumDrare_copy_24
+  - first:
+      213: -7329752747024903220
+    second: LudrumDrare_copy_25
+  - first:
+      213: -5400051510198577580
+    second: LudrumDrare_copy_26
+  - first:
+      213: -7532843844342287955
+    second: LudrumDrare_copy_27
+  - first:
+      213: -4172194520906496539
+    second: LudrumDrare_copy_28
+  - first:
+      213: 5112630420918526053
+    second: LudrumDrare_copy_29
+  - first:
+      213: 1918832890384112857
+    second: LudrumDrare_copy_30
+  - first:
+      213: -77397883401405531
+    second: LudrumDrare_copy_31
+  - first:
+      213: 5056167622262739316
+    second: LudrumDrare_copy_32
+  - first:
+      213: 4804900599393874433
+    second: LudrumDrare_copy_33
+  - first:
+      213: -4088753335580145263
+    second: LudrumDrare_copy_34
+  - first:
+      213: 3012564150169945214
+    second: LudrumDrare_copy_35
+  - first:
+      213: -153401888885831050
+    second: LudrumDrare_copy_36
+  - first:
+      213: 4388802569276313742
+    second: LudrumDrare_copy_37
+  - first:
+      213: -3226529633166249870
+    second: LudrumDrare_copy_38
+  - first:
+      213: -2971511557624562019
+    second: LudrumDrare_copy_39
+  - first:
+      213: 9146841753372631790
+    second: LudrumDrare_copy_40
+  - first:
+      213: -6373176852023961910
+    second: LudrumDrare_copy_41
+  - first:
+      213: -3749056876193314654
+    second: LudrumDrare_copy_42
+  - first:
+      213: -5288111666510147101
+    second: LudrumDrare_copy_43
+  - first:
+      213: 1868782743733756599
+    second: LudrumDrare_copy_44
+  - first:
+      213: -7414433451273992547
+    second: LudrumDrare_copy_45
+  - first:
+      213: -1964746172907434176
+    second: LudrumDrare_copy_46
+  - first:
+      213: 7114502070387280714
+    second: LudrumDrare_copy_47
+  - first:
+      213: 8228579626458421049
+    second: LudrumDrare_copy_48
+  - first:
+      213: -2690976689983340041
+    second: LudrumDrare_copy_49
+  - first:
+      213: 8509412077897181800
+    second: LudrumDrare_copy_50
+  - first:
+      213: 3960128517672534342
+    second: LudrumDrare_copy_51
+  - first:
+      213: 5682636532272617337
+    second: LudrumDrare_copy_52
+  - first:
+      213: 1299202880653196051
+    second: LudrumDrare_copy_53
+  - first:
+      213: -4325059447563130568
+    second: LudrumDrare_copy_54
+  - first:
+      213: -3210521114286513005
+    second: LudrumDrare_copy_55
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -108,11 +276,1187 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: LudrumDrare_copy_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc4e03a2d33e4b47a897689660c978a
+      internalID: 5677416366163668441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 115
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ef89c19accc1841ace7ed228eb56da
+      internalID: -2556192837981098154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa468ac63125384384709c99bb1f16d
+      internalID: -680643560170217344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_3
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 105
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a0aa05eb1a57c4fa5124b16f77be9b
+      internalID: 8488537820725804300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 105
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632b782691f8594cabb566f9825ae18
+      internalID: -2192682853103928662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48cfb7673c0eed498bf4874fe1937c5
+      internalID: -6940164500576170725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41159c18c2bb76244ab6631f4abf6cc2
+      internalID: 5762050971085590543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 95
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe9989587adb884bb0f39d245074d94
+      internalID: -1222577645579253988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 85
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0eb0aab6678e43449aa09a4dc2cf9d5
+      internalID: 2251776656398493205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 85
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4a3658d76f7bd439ede78acf6eeb26
+      internalID: -1310463642766275821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 85
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444d3a3d0d4df954fb98c773a551f172
+      internalID: -3083334724825174419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_11
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 75
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b874f79a69b4f44a31796046d36f5f
+      internalID: -9208094009571309124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 85
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310ad7e5554ae074b8b552e55cd79e47
+      internalID: 6484660088944298346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b6c4ac878dbef4da0e9293b5171ef9
+      internalID: -6232593824265428544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7743462e9f5af409a935b271812430
+      internalID: 7441513029968900728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe34fbea2884740bd5c5f668678384
+      internalID: 8733337442956629505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 65
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282083aa30fcd04498e5553885735f4d
+      internalID: 3502649237495166856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2438859778e5d641a7a72db8aba8420
+      internalID: 3989213601239706655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4572a779688c547bb3285933ab7255
+      internalID: -2189002003464494200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_19
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57f82e9dba7f9848a29ed5d6cad12fa
+      internalID: -818005494062507276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b79ace53395c0b4b9fa8901009d76b6
+      internalID: 3926760638325398498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 65
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e0c259e604f09429616c7400dd918f
+      internalID: 5165555432485561712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dd805260aa66c4480dbf9b275c6ea4
+      internalID: -7400388189145411837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9fe177d66072342ba933a729d5ba64
+      internalID: -7607455401072228781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ce30ccb40b1254b9e32f125a31d200
+      internalID: -6205972979770760454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 51
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c381f46d252bf44bc80a23e35fb6fd
+      internalID: -7329752747024903220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_26
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 51
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4572a5623dff5469923905e1fe9dc0
+      internalID: -5400051510198577580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef3c0bcec4e1e3438aaa9b50a141228
+      internalID: -7532843844342287955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 43
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d01f273eebc9314fb590e66ca5cdbe9
+      internalID: -4172194520906496539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_29
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ffb5ce3b1cad74bbc94a1dcad8326f
+      internalID: 5112630420918526053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dde55fbb250ebc4f9de2f9969097976
+      internalID: 1918832890384112857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7232b8188a57ba540ac80642e500ced0
+      internalID: -77397883401405531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_32
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd455720eb93fda4d90bb6f17f77200b
+      internalID: 5056167622262739316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_33
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098c76eb6985e104ab7504b0d923a70b
+      internalID: 4804900599393874433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e419afcfdc10f84d81d8d38e4e48e8f
+      internalID: -4088753335580145263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_35
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6850efc6fda3f834282700113edd2579
+      internalID: 3012564150169945214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 35
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae37dffa9a4cad49847703f67e6e0f7
+      internalID: -153401888885831050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906f273198122b4f9dd3f75fdd364e9
+      internalID: 4388802569276313742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_38
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e25a5a5f259564ab72b6fc7226ffb6
+      internalID: -3226529633166249870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_39
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbfde1a2f78f5047949b6cba1a20cf8
+      internalID: -2971511557624562019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_40
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 31
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2f814317185674e92c217868493df5
+      internalID: 9146841753372631790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904a0bf609d832e48be321b4142d422d
+      internalID: -6373176852023961910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428fa7ae443937e41814149760849c07
+      internalID: -3749056876193314654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 21
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b91949f984215945b5ea4dc008af042
+      internalID: -5288111666510147101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_44
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 11
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19090c9fd39b42458385b2e7a18d81e
+      internalID: 1868782743733756599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_45
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab463d5fc58fdb642ba0e810fff80f7e
+      internalID: -7414433451273992547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274661cf89e784e4c8ae34c66ebf9099
+      internalID: -1964746172907434176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_47
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 11
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42f743f8912ef947a78346c634a99e5
+      internalID: 7114502070387280714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 11
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba56c85198822d438f8e0c56cc81bc2
+      internalID: 8228579626458421049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_49
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 11
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a6deedd811cb343a55fc211f44f2d9
+      internalID: -2690976689983340041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2395fc60f163f9458af9fe680350694
+      internalID: 8509412077897181800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_51
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360fa9b203e27c14ebb26f4982614b76
+      internalID: 3960128517672534342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_52
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4053878e776715245b937c329d23c87c
+      internalID: 5682636532272617337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_53
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a255c9d61a7e76e49a8361965e6fc2fa
+      internalID: 1299202880653196051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbf6692af9d0ff41b01daa8a01c79f0
+      internalID: -4325059447563130568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LudrumDrare_copy_55
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eca9120eee40c41ba682ba6d183033
+      internalID: -3210521114286513005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2f1f38afb7661fa46a16a9d3acfde7bd
     internalID: 0
     vertices: []
     indices: 
