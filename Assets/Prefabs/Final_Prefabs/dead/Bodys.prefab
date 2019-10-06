@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1715520555672874254
+--- !u!1 &7668210739650087096
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 900630696572495175}
-  - component: {fileID: 2751115961459417074}
+  - component: {fileID: 8204321612454609137}
+  - component: {fileID: 6596041401444399684}
   m_Layer: 0
-  m_Name: Bodys
+  m_Name: Bodys 1
   m_TagString: Bodys
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &900630696572495175
+--- !u!4 &8204321612454609137
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715520555672874254}
+  m_GameObject: {fileID: 7668210739650087096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.745142, y: 0.2460381, z: -3.006807}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,16 +31,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2751115961459417074
+--- !u!114 &6596041401444399684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715520555672874254}
+  m_GameObject: {fileID: 7668210739650087096}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd0e938b3ac9e91478cbb60ab621c75b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deadBody: {fileID: 962716743401624424, guid: 48967d66d0d25584d84141a898ee5c12, type: 3}
+  blood0: {fileID: 8826688432044221194, guid: 34a4f080263493147ba66f640b19901e, type: 3}
+  blood1: {fileID: 1818592747628168508, guid: 7904fbf3faa3cde4593646d54c59b645, type: 3}
+  blood2: {fileID: 4964309658559448672, guid: b6532665ed7a1794d9a8420658e133cf, type: 3}
+  blood3: {fileID: 2623830700402471597, guid: 358b4cb97f414fa4db54801d3fc06033, type: 3}

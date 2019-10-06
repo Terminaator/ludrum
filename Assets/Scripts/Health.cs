@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class Health : MonoBehaviour
 {
     public GameObject text;
+    public GameObject bodysPrefab;
     public AudioSource scream;
 
-    private int lives = 3;
+    private int lives = 1   ;
     private int[] checks = new int[]{0,0,0,0};
 
     private float duration = 2f;
@@ -17,6 +18,15 @@ public class Health : MonoBehaviour
 
     private bool wait = false;
     private void Start() {
+        GameObject bodys = GameObject.FindGameObjectWithTag("Bodys");
+        if (bodys == null)
+        {
+            Instantiate(bodysPrefab);
+        }
+        else
+        {
+            bodys.GetComponent<Bodys>().spawn();
+        }
         text.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
     }
     private void Update() {
@@ -35,6 +45,8 @@ public class Health : MonoBehaviour
         if (other.gameObject.tag == "Enemy" && !wait && timer == 0f)
         {
             if(lives == 1){
+                GameObject.FindGameObjectWithTag("Bodys").GetComponent<Bodys>().addBody(this.transform.position);
+                DontDestroyOnLoad(GameObject.FindGameObjectWithTag("Bodys"));
                 SceneManager.LoadScene(0); 
             }
             lives--;
