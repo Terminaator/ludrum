@@ -9,6 +9,7 @@ TagManager:
   - finalCheck
   - firstCheck
   - secondCheck
+  - Bodys
   layers:
   - Default
   - TransparentFX
