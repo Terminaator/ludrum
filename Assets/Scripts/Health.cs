@@ -72,7 +72,7 @@ public class Health : MonoBehaviour
                 }
                 
                 GameObject.FindGameObjectWithTag("Player").GetComponent<Upgrades>().Spawn();
-                liveText.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
+                liveText.GetComponent<UnityEngine.UI.Text>().text =  "LIVES: "+ lives + "";
 
                 score++;
                 scoreText.GetComponent<UnityEngine.UI.Text>().text =  "SCORE: "+ score + "";

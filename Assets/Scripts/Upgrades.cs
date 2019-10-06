@@ -32,6 +32,7 @@ public class Upgrades : MonoBehaviour
             GetComponent<PlayerRun2>().animatorLegs.SetBool("Running", false);
             GetComponent<PlayerRun2>().speed += 0.5f;
         } else if (currentShoeTier == 4) {
+            update = true;
             shoes.gameObject.SetActive(false);
             GetComponent<PlayerRun2>().bike.SetActive(true);
             GetComponent<PlayerRun2>().animatorshoes.SetBool("Roll", false);
@@ -45,8 +46,8 @@ public class Upgrades : MonoBehaviour
 
             GetComponent<BoxCollider2D>().enabled = true;
             GetComponent<PlayerRun2>().buggy.gameObject.SetActive(true);
-            GetComponent<PlayerRun2>().speed += 1;
-            GetComponent<PlayerRun2>().acceleration = 10;
+            GetComponent<PlayerRun2>().maxSpeed = 25;
+            GetComponent<PlayerRun2>().acceleration = 15;
 
         }
     }
@@ -57,6 +58,7 @@ public class Upgrades : MonoBehaviour
             float[] p = points[Random.Range(0,5)];
             if (currentShoeTier < 6)
             {
+                
                 update = false;
                 shoesPrefab.transform.position= new Vector3(p[0],p[1],0);
                 Instantiate(shoesPrefab);
