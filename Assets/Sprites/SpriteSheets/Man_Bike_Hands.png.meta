@@ -1,4 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 483ccc0232744264ea29a995506593d3
+TextureImporter:
+  internalIDToNameTable: []
+=======
 guid: 3a8bc7deac56ec243aee54b8932379c2
 TextureImporter:
   internalIDToNameTable:
@@ -26,11 +31,16 @@ TextureImporter:
   - first:
       213: 857974490733952410
     second: Man_Bike_Hands_7
+>>>>>>> 1ae5db538745d48ee33297b698d4d2d09e5b5893
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
+<<<<<<< HEAD
+    enableMipMap: 1
+=======
     enableMipMap: 0
+>>>>>>> 1ae5db538745d48ee33297b698d4d2d09e5b5893
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -58,6 +68,15 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
+<<<<<<< HEAD
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+=======
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -65,10 +84,20 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
+>>>>>>> 1ae5db538745d48ee33297b698d4d2d09e5b5893
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+=======
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -76,6 +105,7 @@ TextureImporter:
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
+>>>>>>> 1ae5db538745d48ee33297b698d4d2d09e5b5893
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -94,6 +124,15 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+=======
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -281,6 +320,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> 1ae5db538745d48ee33297b698d4d2d09e5b5893
     internalID: 0
     vertices: []
     indices: 
