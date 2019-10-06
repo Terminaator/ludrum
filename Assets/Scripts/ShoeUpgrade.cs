@@ -9,7 +9,8 @@ public class ShoeUpgrade : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Player"){
             other.GetComponent<Upgrades>().UpgradesShoes();
-            Destroy(this.gameObject);
+            GetComponent<Animator>().SetTrigger("Open");
+            Destroy(this.gameObject, 3);
         } 
     }
 }
