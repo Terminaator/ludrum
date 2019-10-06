@@ -55,7 +55,7 @@ public class Upgrades : MonoBehaviour
         if (update)
         {
             float[] p = points[Random.Range(0,5)];
-            if (currentShoeTier < 5)
+            if (currentShoeTier < 6)
             {
                 update = false;
                 shoesPrefab.transform.position= new Vector3(p[0],p[1],0);
