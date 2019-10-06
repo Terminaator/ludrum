@@ -53,7 +53,6 @@ public class Health : MonoBehaviour
             Blink();
             AudioPlayer.instance.screamAudioGroup.Play();
         }
-        Debug.Log("lives: " + lives);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -62,7 +61,8 @@ public class Health : MonoBehaviour
         {
             if (checks[3] == 1)
             {
-                checks = new int[]{0,0,0,0};
+                Debug.Log("ginne");
+                checks = new int[]{1,0,0,0};
                 lives = 3;
                 GameObject.FindGameObjectWithTag("Player").GetComponent<Upgrades>().Spawn();
                 text.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
@@ -84,6 +84,7 @@ public class Health : MonoBehaviour
         {
             checks[3] = 1;
         }
+        Debug.Log(string.Join(",", checks));
     }
 
     private void Blink(){
