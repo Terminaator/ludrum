@@ -12,10 +12,7 @@ public class CarAI2 : MonoBehaviour
     private PIDController altitudePID2;
     private SpriteRenderer sr;
 
-    private float randomizer;
-    private float speedRandomizer;
-
-    private bool randomBool;
+    private float startIgnorePIDTime;
 
     private bool isCrashed;
     private float crashTime;
@@ -28,7 +25,9 @@ public class CarAI2 : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         altitudePID1 = new PIDController();
         altitudePID2 = new PIDController();
+        startIgnorePIDTime = 1f;
     }
+
 
     // Update is called once per frame
     void Update()
@@ -65,10 +64,12 @@ public class CarAI2 : MonoBehaviour
             rotationSpeed2 = Mathf.Clamp01(altitudePID2.Update(hit2.distance*5));
         }
 
-        if (rotationSpeed1 > rotationSpeed2) {
-            transform.RotateAround(sr.bounds.center, Vector3.forward, rotationSpeedMult*rotationSpeed1*Time.deltaTime);
-        } else {
-            transform.RotateAround(sr.bounds.center, Vector3.forward, -rotationSpeedMult*rotationSpeed2*Time.deltaTime);
+        startIgnorePIDTime -= Time.deltaTime;
+
+        if (rotationSpeed1 >= rotationSpeed2 && startIgnorePIDTime < 0) {
+            transform.RotateAround(sr.bounds.center, Vector3.forward, rotationSpeedMult*Time.deltaTime);
+        } else if (startIgnorePIDTime < 0){
+            transform.RotateAround(sr.bounds.center, Vector3.forward, -rotationSpeedMult*Time.deltaTime);
         }
 
         // speed
@@ -79,8 +80,15 @@ public class CarAI2 : MonoBehaviour
         //Debug.DrawLine(transform.position + eyeDir3, hit3.point, Color.blue, 10);
         if (hit3.collider != null) {
             //Debug.Log(transform.up * hit3.distance*rotationSpeedMult* Time.deltaTi    me);
-            float speed = rb.velocity.magnitude +  speedMult * Time.deltaTime;
-            float maxSpeed = Mathf.Pow(hit3.distance, 1/3)*3;
+            float speed = rb.velocity.magnitude;
+            if (hit3.distance > 1) {
+                speed += speedMult * Time.deltaTime;
+            } else
+            {
+                speed -= 3*speedMult * Time.deltaTime;
+            }
+            
+            float maxSpeed = Mathf.Pow(hit3.distance, 1/3)*5;
             if (speed > maxSpeed){
                 speed = maxSpeed;
             }
@@ -90,9 +98,9 @@ public class CarAI2 : MonoBehaviour
             //transform.position = transform.position + speed;
         }
 
-        if (hit3.distance < 1f && hit2.distance < 1.3f && hit1.distance < 1.3f) {
+        if (hit3.distance < 1f && hit2.distance < 1.3f || hit3.distance < 1f && hit1.distance < 1.3f) {
             isCrashed = true;
-            crashTime = 0.7f;
+            crashTime = 0.5f;
         }
     }
 
