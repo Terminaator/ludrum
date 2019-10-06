@@ -19,7 +19,6 @@ public class Waypoint : MonoBehaviour
         
         if (other.tag =="Enemy"){
             other.GetComponent<CarAI>().GoToNext(nextWP);
-            Debug.Log("n");
         }
     }
 
