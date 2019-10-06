@@ -17,7 +17,6 @@ public class BackGround : MonoBehaviour
         backGround.transform.rotation = Quaternion.Euler(0,0,rY);
         startButton.transform.rotation = Quaternion.Euler(0,0,y);
         exitButton.transform.rotation = Quaternion.Euler(0,0,-y);
-        Debug.Log(rY/100);
         backGround.transform.localScale = new Vector3(1.5f-rY/100,1.5f-rY/100,1.5f-rY/100);
              
     }

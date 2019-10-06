@@ -84,7 +84,6 @@ public class Health : MonoBehaviour
         {
             checks[3] = 1;
         }
-        Debug.Log(string.Join(",", checks));
     }
 
     private void Blink(){
