@@ -198,6 +198,7 @@ GameObject:
   - component: {fileID: 4618981533807927828}
   - component: {fileID: 3532448701497915211}
   - component: {fileID: 5977809582526448306}
+  - component: {fileID: -4357070116139184123}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -400,6 +401,20 @@ MonoBehaviour:
   bodysPrefab: {fileID: 7668210739650087096, guid: 30b5b52c2d6d2154e9460edc40eef940,
     type: 3}
   scream: {fileID: 6776121679641082862, guid: 9b2c920e04c372f48a228530fcdc2a43, type: 3}
+--- !u!114 &-4357070116139184123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2199402254300714233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e58bebf3e0b1441bc1457d3b564595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screamAudioGroup: {fileID: 11400000, guid: ce48a84aa86d0994a8703f1c2859917b, type: 2}
+  stepAudioGroup: {fileID: 11400000, guid: 94f9f42bcb437bf4cad191c9191286fd, type: 2}
 --- !u!1 &5066185994739664876
 GameObject:
   m_ObjectHideFlags: 0
