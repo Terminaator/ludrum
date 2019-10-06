@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ManFlipStand
+  m_Name: ManLegsStay
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 1443884637870996113, guid: 77514f6329d54cb48b0428752119d5dc,
+      value: {fileID: 7451172344468163224, guid: 4cc924400ee47284a95ef98095dc25c4,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,7 +41,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 1443884637870996113, guid: 77514f6329d54cb48b0428752119d5dc, type: 3}
+    - {fileID: 7451172344468163224, guid: 4cc924400ee47284a95ef98095dc25c4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

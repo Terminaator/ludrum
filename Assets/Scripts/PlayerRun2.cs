@@ -10,12 +10,14 @@ public class PlayerRun2 : MonoBehaviour
     private bool isRunning;
 
     private SpriteRenderer sr;
-    private Animator animator;
+    public Animator animatorLegs;
+    public Animator animatorhands;
+
+    public Animator animatorshoes;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -34,8 +36,14 @@ public class PlayerRun2 : MonoBehaviour
             moveVec.x = -1;
         }
         transform.position += Vector3.Normalize(moveVec)*speed*Time.deltaTime;
-        transform.rotation = Quaternion.Euler(new Vector3(0,0,Mathf.Atan2(moveVec.y, moveVec.x)*Mathf.Rad2Deg - 90));
-        animator.SetBool("Running", moveVec.magnitude != 0);
+        float mag = moveVec.magnitude;
+        if (mag != 0) {
+            transform.rotation = Quaternion.Euler(new Vector3(0,0,Mathf.Atan2(moveVec.y, moveVec.x)*Mathf.Rad2Deg - 90));
+        }
 
+        animatorLegs.SetBool("Running", mag != 0);
+        animatorhands.SetBool("Running", mag != 0);
+        if (animatorshoes.gameObject.activeInHierarchy)
+            animatorshoes.SetBool("Running", mag != 0);
     }
 }

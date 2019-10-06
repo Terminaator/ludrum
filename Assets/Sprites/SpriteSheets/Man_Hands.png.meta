@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 53d188db57939c04fb5b373cb44ed8d2
+guid: 9fea8af6c48790f4aa72e6d0aa85fd3e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1687430131172444717
-    second: Footwear_FlipFlops_v2_0
+      213: 19096715624763389
+    second: Man_Hands_0
   - first:
-      213: -3933425675994224656
-    second: Footwear_FlipFlops_v2_1
+      213: 9035450693468047263
+    second: Man_Hands_1
   - first:
-      213: 210150406795781302
-    second: Footwear_FlipFlops_v2_2
+      213: 90880412214891430
+    second: Man_Hands_2
   - first:
-      213: -688944262760486389
-    second: Footwear_FlipFlops_v2_3
+      213: 3991165444978068645
+    second: Man_Hands_3
   - first:
-      213: 581582389089873406
-    second: Footwear_FlipFlops_v2_4
+      213: -323105113178520904
+    second: Man_Hands_4
   - first:
-      213: 5275423078156226154
-    second: Footwear_FlipFlops_v2_5
+      213: 1425055806760926187
+    second: Man_Hands_5
   - first:
-      213: -5187618979077840454
-    second: Footwear_FlipFlops_v2_6
+      213: 4655669532462838277
+    second: Man_Hands_6
   - first:
-      213: -5612604575291736796
-    second: Footwear_FlipFlops_v2_7
+      213: 1401524609053354204
+    second: Man_Hands_7
   - first:
-      213: 7994877237436589930
-    second: Footwear_FlipFlops_v2_8
+      213: 1334025948257270087
+    second: Man_Hands_8
   - first:
-      213: -6724812431378709058
-    second: Footwear_FlipFlops_v2_9
+      213: 3546999984568091009
+    second: Man_Hands_9
   - first:
-      213: -6988227839822325016
-    second: Footwear_FlipFlops_v2_10
+      213: 1067133858738110743
+    second: Man_Hands_10
   - first:
-      213: 5449681771998683447
-    second: Footwear_FlipFlops_v2_11
+      213: 5449802114928485989
+    second: Man_Hands_11
   - first:
-      213: 574167738722707011
-    second: Footwear_FlipFlops_v2_12
+      213: -1345840248239972676
+    second: Man_Hands_12
   - first:
-      213: -2922912257809923129
-    second: Footwear_FlipFlops_v2_13
+      213: 9015481984487406432
+    second: Man_Hands_13
   - first:
-      213: 8578791196047099844
-    second: Footwear_FlipFlops_v2_14
+      213: 3502802938786060494
+    second: Man_Hands_14
   - first:
-      213: -726227189577096365
-    second: Footwear_FlipFlops_v2_15
+      213: -8318542318130598514
+    second: Man_Hands_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -93,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,337 +134,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_0
+      name: Man_Hands_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099973e504595254c8faac0ec6b898be
-      internalID: 1687430131172444717
+      spriteID: 3b7f5c2b99513d746950860039e16f67
+      internalID: 19096715624763389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_1
+      name: Man_Hands_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213e6b5999a04b043901ce16399740ba
-      internalID: -3933425675994224656
+      spriteID: 73b4158b6134fea4086b7ab12f826256
+      internalID: 9035450693468047263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_2
+      name: Man_Hands_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f64b735d3ceac7b4383e814c57e7880c
-      internalID: 210150406795781302
+      spriteID: 031d560325274eb428bb6b6bb600387b
+      internalID: 90880412214891430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_3
+      name: Man_Hands_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b5458e273c6e124abdda0aceefaa0e6
-      internalID: -688944262760486389
+      spriteID: 8cf24dd21ec33bf41a0bbe7ecf8bb826
+      internalID: 3991165444978068645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_4
+      name: Man_Hands_4
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff4f03d6c3ac00c469673f73f950595b
-      internalID: 581582389089873406
+      spriteID: 09c87772de98f3f4d87d8164df5c9b50
+      internalID: -323105113178520904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_5
+      name: Man_Hands_5
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50109ace0bac94d4395bae94d6b05021
-      internalID: 5275423078156226154
+      spriteID: cb1966a75b75cb44b8795124f06bb128
+      internalID: 1425055806760926187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_6
+      name: Man_Hands_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be37450a232f2a3459acf9f629d17161
-      internalID: -5187618979077840454
+      spriteID: 17147b60ac406d84c856f7b2fb1e5187
+      internalID: 4655669532462838277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_7
+      name: Man_Hands_7
       rect:
         serializedVersion: 2
         x: 224
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edad88bec9e0f4442943b648e53140b8
-      internalID: -5612604575291736796
+      spriteID: cdf909287eb63ed4784a8e19f665159e
+      internalID: 1401524609053354204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_8
+      name: Man_Hands_8
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c119491717dc6af41aaedef5e78d655c
-      internalID: 7994877237436589930
+      spriteID: 026a4fdc196f70342b089fc94c823f3c
+      internalID: 1334025948257270087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_9
+      name: Man_Hands_9
       rect:
         serializedVersion: 2
         x: 288
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62d01f5a8050ad245a07a93baf410d71
-      internalID: -6724812431378709058
+      spriteID: 97af239e73a06bc489c68691dc42407d
+      internalID: 3546999984568091009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_10
+      name: Man_Hands_10
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 318323471e766634cae51d5c62f844a4
-      internalID: -6988227839822325016
+      spriteID: b394a01c46bffaf47a7c1d70aff3e886
+      internalID: 1067133858738110743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_11
+      name: Man_Hands_11
       rect:
         serializedVersion: 2
         x: 352
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c040b4f2c96850b4295c39e4eb950aca
-      internalID: 5449681771998683447
+      spriteID: 39484140bf8f5e14ca58282bf6d7e18b
+      internalID: 5449802114928485989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_12
+      name: Man_Hands_12
       rect:
         serializedVersion: 2
         x: 384
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc799020be741674b8813a513b0acef2
-      internalID: 574167738722707011
+      spriteID: 2e17b612776b40d4fb73d8e99287d6d2
+      internalID: -1345840248239972676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_13
+      name: Man_Hands_13
       rect:
         serializedVersion: 2
         x: 416
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2c9f2f831266f44184cbb108cada983
-      internalID: -2922912257809923129
+      spriteID: 114b92520055c7146b237a1edc6e0fbd
+      internalID: 9015481984487406432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_14
+      name: Man_Hands_14
       rect:
         serializedVersion: 2
         x: 448
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 068cd79bb4650c64b8473fb38703579a
-      internalID: 8578791196047099844
+      spriteID: 1482322f3269f0c46be1f00c116f0457
+      internalID: 3502802938786060494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Footwear_FlipFlops_v2_15
+      name: Man_Hands_15
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 998bc3f08ef3fa74a836ae02b0cffcfe
-      internalID: -726227189577096365
+      spriteID: 352c600400ed18f4597d6950480f8503
+      internalID: -8318542318130598514
       vertices: []
       indices: 
       edges: []
@@ -472,7 +472,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 561feeff74351f148bd70735d530eb65
+    spriteID: 2b4536fbb7abb8646a6fb40302fc8f95
     internalID: 0
     vertices: []
     indices: 
