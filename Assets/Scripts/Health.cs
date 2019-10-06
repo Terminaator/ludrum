@@ -5,14 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
+    public GameObject text;
     private int lives = 3;
-    private int[] checks = new int[]{0,0,0};
+    private int[] checks = new int[]{0,0,0,0};
 
     private float duration = 2f;
 
     private float timer = 0f;
 
     private bool wait = false;
+    private void Start() {
+        text.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
+    }
     private void Update() {
         if (wait)
         {
@@ -32,17 +36,20 @@ public class Health : MonoBehaviour
             }
             lives--;
             wait = true;
+            text.GetComponent<UnityEngine.UI.Text>().text = lives + "";
         }
         Debug.Log("lives: " + lives);
     }
+
     private void OnTriggerEnter2D(Collider2D other) {
         Vector3 pos = other.transform.position - transform.position;
         if (other.gameObject.tag == "Finish" && pos.x < 0)
         {
-            if (checks[2] == 1)
+            if (checks[3] == 1)
             {
-                checks = new int[]{0,0,0};
+                checks = new int[]{0,0,0,0};
                 lives = 3;
+                text.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
             }
             else
             {
@@ -53,9 +60,13 @@ public class Health : MonoBehaviour
         {
             checks[1] = 1;
         }
-        else if(other.gameObject.tag == "finalCheck" && pos.y > 0  && checks[1] == 1)
+        else if (other.gameObject.tag == "secondCheck" && pos.y < 0 && checks[1] == 1)
         {
             checks[2] = 1;
+        }
+        else if(other.gameObject.tag == "finalCheck" && pos.y > 0  && checks[2] == 1)
+        {
+            checks[3] = 1;
         }
         Debug.Log(string.Join(",", checks));
     }
