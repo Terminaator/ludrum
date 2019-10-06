@@ -197,6 +197,8 @@ GameObject:
   - component: {fileID: 3171673985161585354}
   - component: {fileID: 4618981533807927828}
   - component: {fileID: 3532448701497915211}
+  - component: {fileID: 3465530725033309433}
+  - component: {fileID: 6813645214687432976}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -383,6 +385,32 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2199402254300714233}
   m_Enabled: 1
+--- !u!114 &3465530725033309433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2199402254300714233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0ab46eb0619654799377f9bb8eeef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6813645214687432976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2199402254300714233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e58bebf3e0b1441bc1457d3b564595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screamAudioGroup: {fileID: 0}
+  stepAudioGroup: {fileID: 0}
 --- !u!1 &5066185994739664876
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,7 +588,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &7635262273625892754

@@ -752,9 +752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 929451511}
   - component: {fileID: 929451510}
-  - component: {fileID: 929451509}
   - component: {fileID: 929451512}
-  - component: {fileID: 929451513}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -762,14 +760,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!81 &929451509
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929451508}
-  m_Enabled: 1
 --- !u!20 &929451510
 Camera:
   m_ObjectHideFlags: 0
@@ -840,21 +830,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 0, z: -2}
---- !u!114 &929451513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929451508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e301d78e5880ed4fa1a5c9c31fa1ea0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volume: 1
-  pitch: 1
-  audioClip: {fileID: 8300000, guid: dc3115efcb69c0f4480678a84c2aa6f1, type: 3}
 --- !u!1 &940004076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1004,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7434872493271397567, guid: f0802429309bcaf4f867d0439c3953fa,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2199402254300714233, guid: f0802429309bcaf4f867d0439c3953fa,
         type: 3}
       propertyPath: m_Name

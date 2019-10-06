@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3297b2203a5b9ea45a05428a17bad5ca, type: 3}
+  m_Name: ScreamGroup
+  m_EditorClassIdentifier: 
+  VolumeMin: 0.8
+  VolumeMax: 1.22
+  PitchMin: 0.87
+  PitchMax: 1.2
+  Cooldown: 0.1
+  audioClips:
+  - {fileID: 8300000, guid: 9d3fb2a7fdae3d64c9d62f32d58696ba, type: 3}
+  - {fileID: 8300000, guid: 22147c62f90d91d44804cecd0d959060, type: 3}
