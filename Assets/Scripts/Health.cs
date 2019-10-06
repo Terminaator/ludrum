@@ -37,6 +37,7 @@ public class Health : MonoBehaviour
             lives--;
             wait = true;
             text.GetComponent<UnityEngine.UI.Text>().text = lives + "";
+            Blink();
         }
         Debug.Log("lives: " + lives);
     }
@@ -69,5 +70,20 @@ public class Health : MonoBehaviour
             checks[3] = 1;
         }
         Debug.Log(string.Join(",", checks));
+    }
+
+    private void Blink(){
+          StartCoroutine(Blinks());   
+    }
+    private IEnumerator Blinks()
+    {
+        Renderer renderer = GetComponent<Renderer>();
+        while(wait)
+        {
+            renderer.enabled = !renderer.enabled;
+            yield return new WaitForSeconds(0.1f);
+        }
+        
+        renderer.enabled = true;
     }
 }
