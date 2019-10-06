@@ -17,7 +17,6 @@ public class Health : MonoBehaviour
 
     private bool wait = false;
     private void Start() {
-                        GameObject.FindGameObjectWithTag("Player").GetComponent<Upgrades>().Spawn();
         text.GetComponent<UnityEngine.UI.Text>().text =  lives + "";
     }
     private void Update() {
