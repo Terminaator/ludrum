@@ -15,6 +15,7 @@ public class Upgrades : MonoBehaviour
     private float[][] points = new float[][]{new float[]{-8.01f,0f},new float[]{-7.53f,7.56f},new float[]{7.23f,7.56f},new float[]{7.23f,-3.95f}, new float[]{0.67f,-8.4f}};
 
     public void UpgradesShoes() {
+        AudioPlayer.instance.stepAudioGroup.Play();
         currentShoeTier += 1;
         if (currentShoeTier == 1) {
             update = true;
