@@ -103,6 +103,10 @@ public class Health : MonoBehaviour
     private IEnumerator Blinks()
     {
         Renderer renderer = GetComponent<Renderer>();
+        if (GetComponent<Upgrades>().currentShoeTier > 4) {
+            renderer = GetComponent<PlayerRun2>().buggy.GetComponentInChildren<Renderer>();
+        }
+        
         while(wait)
         {
             renderer.enabled = !renderer.enabled;
