@@ -8,6 +8,7 @@ public class Health : MonoBehaviour
     public GameObject liveText;
     public GameObject scoreText;
     public GameObject bodysPrefab;
+    public static Health instance;
 
     private int lives = 3   ;
     private int[] checks = new int[]{0,0,0,0};
@@ -20,6 +21,8 @@ public class Health : MonoBehaviour
 
     private bool wait = false;
     private void Start() {
+        instance = this;
+
         GameObject bodys = GameObject.FindGameObjectWithTag("Bodys");
         if (bodys == null)
         {

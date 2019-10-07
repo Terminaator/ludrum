@@ -20,7 +20,7 @@ public class BGMusic : MonoBehaviour {
     //Always keep this gameObject there
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
 
         source = this.gameObject.GetComponent<AudioSource>();
 
